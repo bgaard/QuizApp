@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <!--    Categories          -->
+    <string name="category_literature">Literature</string>
+    <string name="category_movies">Movies</string>
+    <string name="category_physics">Physics</string>
+
+
+    <!--    Questions Titles     -->
+    <string name="question_one_title">Question 1 (one answer)</string>
+    <string name="question_two_title">Question 2 (one answer)</string>
+    <string name="question_three_title">Question 3 (one answer)</string>
+    <string name="question_four_title">Question 4 (one answer)</string>
+    <string name="question_five_title">Question 5 (multiple answer)</string>
+    <string name="question_six_title">Question 6 (one answer)</string>
+    <string name="question_seven_title">Question 7 (one answer)</string>
+    <string name="question_eight_title">Question 8 (multiple answer)</string>
+    <string name="question_nine_title">Question 9 (multiple answer)</string>
+    <string name="question_ten_title">Question 10 (one answer)</string>
+
+    <!--    Questions     -->
+    <string name="question_one">According to Mark Twain, which animal is the only one that blushes?</string>
+    <string name="question_two">According to D. H. Lawrence, which small animal will drop frozen dead from a bough without ever having felt sorry for itself?</string>
+    <string name="question_three">According to Marianne Williamson, what is our greatest fear?</string>
+    <string name="question_four">Which famous director turned A Clockwork Orange into a movie?</string>
+    <string name="question_five">Who are the three main characters in the Harry Potter movies?</string>
+    <string name="question_six">What is the name of the protagonist in Dan Brown\'s novels? </string>
+    <string name="question_seven">In the year 1921, Albert Einstein received the nobel prize. Which discovery lead to this achievement?</string>
+    <string name="question_eight">Which laws/equations/principles form the foundation of electromagnetism, classical optics, and electric circuits?</string>
+    <string name="question_nine">Consider a car with four wheels that weighs 1.200 kg. How large a force is transferred to the ground by each wheel? It can be assumed that the car is parked on a perfectly plane surface and that the acceleration of gravity is 10 m/s<sup>2</sup></string>
+    <string name="question_ten">Which image portraits the danish physicist Niels Bohr? Enter your answer below.</string>
+
+
+    <!--    Answers     -->
+    <!--    Question 1     -->
+    <string name="correct_answer_one">Man</string>
+    <string name="wrong_answer_one_a">Woman</string>
+    <string name="wrong_answer_one_b">Lemur</string>
+    <string name="wrong_answer_one_c">Dog</string>
+
+    <!--    Question 2     -->
+    <string name="correct_answer_two">Bird</string>
+    <string name="wrong_answer_two_a">Frog</string>
+    <string name="wrong_answer_two_b">Lion</string>
+    <string name="wrong_answer_two_c">Donkey</string>
+
+    <!--    Question 3     -->
+    <string name="correct_answer_three">That we are powerful beyond measure.</string>
+    <string name="wrong_answer_three_a">That we are inadequate.</string>
+    <string name="wrong_answer_three_b">That we are born free, and we are everywhere in chains.</string>
+    <string name="wrong_answer_three_c">That God is dead.</string>
+
+    <!--    Question 4     -->
+    <string name="correct_answer_four">Stanley Kubrick</string>
+    <string name="wrong_answer_four_a">Daniel Craig</string>
+    <string name="wrong_answer_four_b">Christopher Nolan</string>
+    <string name="wrong_answer_four_c">J. J. Abrams</string>
+
+
+    <!--    Question 5     -->
+    <string name="correct_answer_five_one">Harry Potter</string>
+    <string name="correct_answer_five_tow">Hermione Granger</string>
+    <string name="correct_answer_five_three">Ronald Weasley</string>
+    <string name="wrong_answer_five_a">Billy Bottom-Long</string>
+
+    <!--    Question 6     -->
+    <string name="correct_answer_six">Robert Langdon</string>
+    <string name="wrong_answer_six_a">Belinda Blinked</string>
+    <string name="wrong_answer_six_b">Anakin Skywalker</string>
+    <string name="wrong_answer_six_c">Thomas A. Anderson</string>
+
+    <!--    Question 7     -->
+    <string name="correct_answer_seven">The law of the photoelectric effect.</string>
+    <string name="wrong_answer_seven_a">Theory of relativity.</string>
+    <string name="wrong_answer_seven_b">The phenomenon quantum entanglement.</string>
+    <string name="wrong_answer_seven_c">Discovery of the wave–particle duality.</string>
+
+    <!--    Question 8     -->
+    <string name="correct_answer_eight_one">Maxwell\'s equations</string>
+    <string name="correct_answer_eight_two">Lorentz force law</string>
+    <string name="wrong_answer_eight_a">Ohm\'s equations</string>
+    <string name="wrong_answer_eight_b">bernoulli\'s principle</string>
+
+    <!--    Question 9     -->
+    <string name="correct_answer_nine_one">3.000 N</string>
+    <string name="correct_answer_nine_two">3 kN</string>
+    <string name="correct_answer_nine_three">3.000.000.000.000 nN</string>
+    <string name="wrong_answer_nine_a">3 MN</string>
+
+    <!--    Question 10     -->
+    <string name="correct_answer_ten">EDIT ME</string>
+    <string name="hint_text_question_ten">Image Name (A, B, C, or D)</string>
+
+    <!--    Correct Answers (Long)  -->
+    <string name="correct_answer_one_long"><b>Man</b> is the only animal that blushes. Or needs to.</string>
+    <string name="correct_answer_two_long">I never saw a wild thing sorry for itself. A small <b>bird</b> will drop frozen dead from a bough without ever having felt sorry for itself.</string>
+    <string name="correct_answer_three_long">Our deepest fear is not that we are inadequate. <b>Our deepest fear is that we are powerful beyond measure.</b> It is our light, not our darkness that most frightens us. We ask ourselves, Who am I to be brilliant, gorgeous, talented, fabulous? Actually, who are you not to be? You are a child of God. Your playing small does not serve the world. There is nothing enlightened about shrinking so that other people won\'t feel insecure around you. We are all meant to shine, as children do. We were born to make manifest the glory of God that is within us. It's not just in some of us; it's in everyone. And as we let our own light shine, we unconsciously give other people permission to do the same. As we are liberated from our own fear, our presence automatically liberates others.</string>
+    <string name="correct_answer_four_long">A Clockwork Orange is a 1971 dystopian crime film adapted, produced, and directed <b>by Stanley Kubrick</b>, based on Anthony Burgess\'s 1962 novel of the same name. It employs disturbing, violent images to comment on psychiatry, juvenile delinquency, youth gangs, and other social, political, and economic subjects in a dystopian near-future Britain.</string>
+    <string name="correct_answer_five_long"><b>Harry Potter, Hermione Granger, and Ronald Weasley</b></string>
+    <string name="correct_answer_six_long"><b>Robert Langdon</b></string>
+    <string name="correct_answer_seven_long">The Nobel Prize in Physics 1921 was awarded to Albert Einstein "for his services to Theoretical Physics, and especially for his discovery of <b>the law of the photoelectric effect</b>".</string>
+    <string name="correct_answer_eight_long"><b>Maxwell\'s equations</b> are a set of partial differential equations that, together with the <b>Lorentz force law</b>, form the <b>foundation of classical electromagnetism, classical optics, and electric circuits.</b> </string>
+    <string name="correct_answer_nine_long">(1.200 kg * 10 m/s<sup>2</sup>) / 4 wheels = 3.000 N / wheel = 3 kN / wheel</string>
+
+</resources>
