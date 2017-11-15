@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">Quiz App</string>
+    <!--    Buttons             -->
+    <string name="submit_button">submit</string>
+
+    <!--    Text for images     -->
+    <string name="letter_A">Answer: A</string>
+    <string name="letter_B">Answer: B</string>
+    <string name="letter_C">Answer: C</string>
+    <string name="letter_D">Answer: D</string>
+
 
     <!--    Categories          -->
     <string name="category_literature">Literature</string>
@@ -89,8 +98,8 @@
     <string name="wrong_answer_nine_a">3 MN</string>
 
     <!--    Question 10     -->
-    <string name="correct_answer_ten">EDIT ME</string>
-    <string name="hint_text_question_ten">Image Name (A, B, C, or D)</string>
+    <string name="correct_answer_ten">A</string>
+    <string name="hint_text_question_ten">Please input A, B, C, or D</string>
 
     <!--    Correct Answers (Long)  -->
     <string name="correct_answer_one_long"><b>Man</b> is the only animal that blushes. Or needs to.</string>

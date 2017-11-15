@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.android.quizapp.MainActivity">
 
-    <ScrollView
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/my_gradient"
         android:padding="@dimen/title_text_size">
 
         <LinearLayout
+            android:id="@+id/LinearLayout_question_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -305,10 +305,8 @@
                 android:fontFamily="sans-serif"/>
 
 
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <RadioButton
+
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -318,7 +316,7 @@
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
-                <RadioButton
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -328,7 +326,7 @@
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
-                <RadioButton
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -338,7 +336,7 @@
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
-                <RadioButton
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -347,7 +345,7 @@
                     android:textColor="@color/standard_black"
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_large"/>
-            </RadioGroup>
+
 
 
 
@@ -512,10 +510,7 @@
                 android:fontFamily="sans-serif"/>
 
 
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <RadioButton
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -525,7 +520,7 @@
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
-                <RadioButton
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -535,7 +530,7 @@
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
-                <RadioButton
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -545,7 +540,7 @@
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
-                <RadioButton
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -554,7 +549,7 @@
                     android:textColor="@color/standard_black"
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_large"/>
-            </RadioGroup>
+
 
 
 
@@ -579,10 +574,7 @@
                 android:fontFamily="sans-serif"/>
 
 
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <RadioButton
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -592,7 +584,7 @@
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
-                <RadioButton
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -602,7 +594,7 @@
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
-                <RadioButton
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -612,7 +604,7 @@
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
-                <RadioButton
+                <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -621,11 +613,6 @@
                     android:textColor="@color/standard_black"
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_large"/>
-            </RadioGroup>
-
-
-
-
 
             <!-- Question 10 -->
             <TextView
@@ -645,7 +632,86 @@
                 android:textColor="@color/standard_white"
                 android:fontFamily="sans-serif"/>
 
+            <!--    Image A     -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/letter_A"
+                android:textColor="@color/standard_white"
+                android:fontFamily="sans-serif"
+                android:paddingBottom="@dimen/distance_between_elements_small"/>
 
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/bohr"
+                android:paddingBottom="@dimen/distance_between_elements_large"/>
+
+
+
+            <!--    Image B     -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/letter_B"
+                android:textColor="@color/standard_white"
+                android:fontFamily="sans-serif"
+                android:paddingBottom="@dimen/distance_between_elements_small"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/boltzmann"
+                android:paddingBottom="@dimen/distance_between_elements_large"/>
+
+
+
+
+            <!--    Image C     -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/letter_C"
+                android:textColor="@color/standard_white"
+                android:fontFamily="sans-serif"
+                android:paddingBottom="@dimen/distance_between_elements_small"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/einstein"
+                android:paddingBottom="@dimen/distance_between_elements_large"/>
+
+
+
+
+
+            <!--    Image D    -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/letter_D"
+                android:textColor="@color/standard_white"
+                android:fontFamily="sans-serif"
+                android:paddingBottom="@dimen/distance_between_elements_small"/>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/holger"
+                android:paddingBottom="@dimen/distance_between_elements_large"/>
+
+
+
+            <!--    Answer Option   -->
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -653,12 +719,28 @@
                 android:background="@color/standard_white"
                 android:paddingTop="@dimen/hint_padding"
                 android:paddingBottom="@dimen/hint_padding"
-                android:paddingLeft="@dimen/hint_padding"/>
+                android:paddingLeft="@dimen/hint_padding"
+                android:textAllCaps="true"
+                android:inputType="textCapWords"
+                android:imeOptions="actionDone"/>
 
 
         </LinearLayout>
 
-    </ScrollView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/LinearLayout_question_container"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/distance_between_elements_large"
+            android:layout_marginBottom="@dimen/distance_between_elements_large"
+            android:textAllCaps="true"
+            android:text="@string/submit_button"
+            android:textColor="@color/standard_white"
+            android:background="@color/colorPrimary"
+            android:fontFamily="sans-serif-light"/>
+
+    </RelativeLayout>
 
 
-</LinearLayout>
+</ScrollView>
