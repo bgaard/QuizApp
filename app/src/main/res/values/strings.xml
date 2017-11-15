@@ -5,7 +5,6 @@
     <string name="number_of_questions">10</string>
     <string name="number_of_options_pr_question">4</string>
 
-
     <!--    Buttons             -->
     <string name="submit_button">submit</string>
     <string name="number_of_correct_answers">Number of correct answers: <xliff:g id="correct_answers" example="10">%s</xliff:g></string>
@@ -16,12 +15,10 @@
     <string name="letter_C">Answer: C</string>
     <string name="letter_D">Answer: D</string>
 
-
     <!--    Categories          -->
     <string name="category_literature">Literature</string>
     <string name="category_movies">Movies</string>
     <string name="category_physics">Physics</string>
-
 
     <!--    Questions Titles     -->
     <string name="question_one_title">Question 1 (one answer)</string>
@@ -47,7 +44,6 @@
     <string name="question_nine">Consider a car with four wheels that weighs 1.200 kg. How large a force is transferred to the ground by each wheel? It can be assumed that the car is parked on a perfectly plane surface and that the acceleration of gravity is 10 m/s<sup>2</sup></string>
     <string name="question_ten">Which image portraits the danish physicist Niels Bohr? Enter your answer below.</string>
 
-
     <!--    Answers     -->
     <!--    Question 1     -->
     <string name="correct_answer_one">Man</string>
@@ -72,7 +68,6 @@
     <string name="wrong_answer_four_a">Daniel Craig</string>
     <string name="wrong_answer_four_b">Christopher Nolan</string>
     <string name="wrong_answer_four_c">J. J. Abrams</string>
-
 
     <!--    Question 5     -->
     <string name="correct_answer_five_one">Harry Potter</string>
