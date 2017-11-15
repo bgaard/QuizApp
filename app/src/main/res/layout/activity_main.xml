@@ -40,8 +40,10 @@
 
             <RadioGroup
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:id="@+id/question_1_radio_group">
                 <RadioButton
+                    android:id="@+id/question_1_option_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -52,6 +54,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_1_option_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -62,6 +65,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_1_option_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -72,6 +76,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_1_option_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -105,8 +110,10 @@
 
             <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:id="@+id/question_2_radio_group">
                 <RadioButton
+                    android:id="@+id/question_2_option_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -117,6 +124,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_2_option_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -127,6 +135,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_2_option_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -137,6 +146,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_2_option_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -173,8 +183,10 @@
 
             <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:id="@+id/question_3_radio_group">
                 <RadioButton
+                    android:id="@+id/question_3_option_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -185,6 +197,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_3_option_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -195,6 +208,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_3_option_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -205,6 +219,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_3_option_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -239,8 +254,10 @@
 
             <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:id="@+id/question_4_radio_group">
                 <RadioButton
+                    android:id="@+id/question_4_option_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -251,6 +268,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_4_option_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -261,6 +279,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_4_option_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -271,6 +290,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_4_option_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -307,6 +327,7 @@
 
 
                 <CheckBox
+                    android:id="@+id/question_5_option_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -317,6 +338,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <CheckBox
+                    android:id="@+id/question_5_option_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -327,6 +349,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <CheckBox
+                    android:id="@+id/question_5_option_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -337,11 +360,12 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <CheckBox
+                    android:id="@+id/question_5_option_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
                     android:fontFamily="sans-serif-light"
-                    android:text="@string/correct_answer_five_tow"
+                    android:text="@string/correct_answer_five_two"
                     android:textColor="@color/standard_black"
                     android:paddingLeft="@dimen/distance_between_elements_medium"
                     android:layout_marginBottom="@dimen/distance_between_elements_large"/>
@@ -373,8 +397,10 @@
 
             <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:id="@+id/question_6_radio_group">
                 <RadioButton
+                    android:id="@+id/question_6_option_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -385,6 +411,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_6_option_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -395,6 +422,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_6_option_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -405,6 +433,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_6_option_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -443,8 +472,10 @@
 
             <RadioGroup
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:id="@+id/question_7_radio_group">
                 <RadioButton
+                    android:id="@+id/question_7_option_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -455,6 +486,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_7_option_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -465,6 +497,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_7_option_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -475,6 +508,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <RadioButton
+                    android:id="@+id/question_7_option_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -511,6 +545,7 @@
 
 
                 <CheckBox
+                    android:id="@+id/question_8_option_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -521,6 +556,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <CheckBox
+                    android:id="@+id/question_8_option_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -531,6 +567,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <CheckBox
+                    android:id="@+id/question_8_option_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -541,6 +578,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <CheckBox
+                    android:id="@+id/question_8_option_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -575,6 +613,7 @@
 
 
                 <CheckBox
+                    android:id="@+id/question_9_option_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -585,6 +624,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <CheckBox
+                    android:id="@+id/question_9_option_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -595,6 +635,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <CheckBox
+                    android:id="@+id/question_9_option_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -605,6 +646,7 @@
                     android:layout_marginBottom="@dimen/distance_between_elements_small"/>
 
                 <CheckBox
+                    android:id="@+id/question_9_option_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/standard_white"
@@ -713,6 +755,7 @@
 
             <!--    Answer Option   -->
             <EditText
+                android:id="@+id/question_10_option_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/hint_text_question_ten"
@@ -728,6 +771,7 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/submit_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/LinearLayout_question_container"
@@ -738,7 +782,8 @@
             android:text="@string/submit_button"
             android:textColor="@color/standard_white"
             android:background="@color/colorPrimary"
-            android:fontFamily="sans-serif-light"/>
+            android:fontFamily="sans-serif-light"
+            android:onClick="checkAnswers"/>
 
     </RelativeLayout>
 
